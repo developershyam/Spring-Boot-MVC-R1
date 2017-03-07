@@ -1,0 +1,186 @@
+@CHARSET "ISO-8859-1";
+/* body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+} */
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input {
+    margin-top: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin button {
+    margin-top: 10px;
+}
+
+.has-error {
+    color: red
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+	height: 450px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+.header_inner {
+	background: -webkit-linear-gradient(#286090, #00aeef);
+	background: linear-gradient(to BOTTOM, #286090, #00aeef);
+	background: -moz-linear-gradient(to BOTTOM, #286090, #00aeef);
+	background: -ms-linear-gradient(to BOTTOM, #286090, #00aeef);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr='#286090', endColorstr='#00aeef'); /* IE6 & IE7 */
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#286090', endColorstr='#00aeef')";
+	/* IE8 */
+}
+
+/* common end*/
+.navbar-inverse .navbar-nav>li>a {
+	color: #ddd;
+}
+
+.footerarea {
+	float: left;
+	width: 100%;
+	background: -webkit-linear-gradient(#F9F8F8, #F5F1EE, #DAD0CE);
+	background: linear-gradient(to BOTTOM, #F9F8F8, #F5F1EE, #DAD0CE);
+	padding: 18px 0px;
+	height: 52px
+}
+
+.footerleft_nav ul {
+	width: 100%;
+	float: left;
+}
+
+.footerleft_nav ul li {
+	float: left;
+	margin-right: 15px;
+}
+
+.footerleft_nav ul li a {
+	color: #525255;
+	font-size: 13px;
+}
+
+.footerrightleft_nav ul {
+	float: right;
+}
+
+.footerrightleft_nav ul li {
+	float: left;
+	margin-left: 15px;
+}
+
+.footerrightleft_nav ul li a {
+	color: #525255;
+	font-size: 13px;
+}
+
+.paddingLeftNone {
+	padding-left: 0px
+}
+
+.paddingRightNone {
+	padding-right: 0px
+}
+
+.paddingRightLeftNone {
+	padding-left: 0px;
+	padding-right: 0px
+}
+
+ul, ul li {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+/* Set black background color, white text and some padding */
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	
+}
+
+#body {
+	/* padding: 10px; */
+	padding-bottom: 50px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
